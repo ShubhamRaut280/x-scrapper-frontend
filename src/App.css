@@ -1,0 +1,70 @@
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.trends-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 600px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+span {
+    padding: 8px;
+    font-size: 18px;
+    color: #333;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#scrapBtn {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+    width: 180px;
+    background-color: #f06448;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+#scrapBtn:hover {
+    background-color: #ff984c;
+    transform: scale(1.05);
+}
+
+#logs {
+    margin-top: 15px;
+    font-size: 16px;
+    color: #666;
+}
+
+#log-msg {
+    margin: 0;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
